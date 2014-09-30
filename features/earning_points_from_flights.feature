@@ -5,7 +5,7 @@ Feature: Earning Frequent Flyer points from flights
 
   Scenario: Earning standard points from an Economoy flight
   Normal flights earn 1 point every 2 kilometres
-    Given the flying distance between Sydney and Melbourne is 878 km
+    Given the flying distance between "Sydney" and "Melbourne" is 878 km
     And I am a standard Frequent Flyer member
     When I tly from Sydney to Melbourne on 10/10/2014
     Then I should earn 439 points
